@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "TestAnalyser",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [
+		"TAAnnouncer"
+	],
+	"instvars" : [
+		"enable"
+	],
+	"name" : "TestsDetectionListener",
+	"type" : "normal"
+}

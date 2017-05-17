@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "TestAnalyser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testName",
+		"status",
+		"startDate",
+		"endDate",
+		"testsMethods"
+	],
+	"name" : "TestsClasses",
+	"type" : "normal"
+}
