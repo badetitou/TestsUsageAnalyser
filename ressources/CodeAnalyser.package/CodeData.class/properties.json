@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "CodeAnalyser",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"commitNb",
+		"timestamp",
+		"modificationDetails",
+		"objectAffected"
+	],
+	"name" : "CodeData",
+	"type" : "normal"
+}
