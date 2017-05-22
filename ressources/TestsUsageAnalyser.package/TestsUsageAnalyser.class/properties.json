@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 10:39",
+	"instvars" : [
+		 ],
+	"name" : "TestsUsageAnalyser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

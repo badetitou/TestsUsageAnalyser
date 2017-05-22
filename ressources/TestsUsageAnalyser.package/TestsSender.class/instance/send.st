@@ -1,12 +1,13 @@
 sending
 send
-	ZnClient new 
-		https; 
-  		host: url; 
-  		path: ''; 
-  		accept: ZnMimeType applicationJson; 
-  		contentReader: [ :entity | NeoJSONReader fromString: entity contents ]; 
-  		contentWriter: [ :data | ZnEntity with: (NeoJSONWriter toString: TestsData uniqueInstance toJson) type: ZnMimeType applicationJson]; 
-  		post. 
+	TestsData testSuite ifNotNil: [  
+		(TestsData uniqueInstance testClasses size == TestsData testSuite size) ifFalse:[
+			^self.
+		].
+		self sendIt: TestsData toSend.
+		TestsData testSuite: nil.
+	] ifNil: [
+		self sendIt: TestsData toSend.
+	].
 	TestsData reset.
 	TestTools reset.

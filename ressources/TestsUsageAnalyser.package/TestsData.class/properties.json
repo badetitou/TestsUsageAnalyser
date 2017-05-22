@@ -1,7 +1,8 @@
 {
 	"category" : "TestsUsageAnalyser-RTests",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		"uniqueInstance",
+		"testSuite" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "<historical>",

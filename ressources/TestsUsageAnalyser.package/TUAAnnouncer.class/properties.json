@@ -1,7 +1,7 @@
 {
 	"category" : "TestsUsageAnalyser-Announcements",
 	"classinstvars" : [
-		 ],
+		"uniqueInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:13",

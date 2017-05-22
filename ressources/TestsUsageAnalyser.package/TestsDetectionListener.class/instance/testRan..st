@@ -6,4 +6,4 @@ testRan: anAnnouncement
 		author: (MD5 hashMessage: (Unicode toUppercaseString: Author uniqueInstance fullName)) asString;
 		endDate: DateAndTime now.
 	aTestClass := TestsData uniqueInstance testClasses at: (TestsData uniqueInstance testClasses size).
-	
+	TestsSender uniqueInstance send.

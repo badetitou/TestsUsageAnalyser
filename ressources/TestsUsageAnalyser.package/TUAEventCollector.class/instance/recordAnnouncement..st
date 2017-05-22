@@ -5,7 +5,6 @@ recordAnnouncement: anAnnouncement
 		[ self add:
 			(anAnnouncement dataForTUA
 				at: #obfuscated put: Privacy sendEntityNames not;
-				at: #timestamp  put: DateAndTime now;
 				yourself)
 		
 		] on: Error
