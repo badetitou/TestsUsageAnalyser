@@ -1,0 +1,1 @@
+ClassData contains the data we will send

@@ -1,0 +1,17 @@
+{
+	"category" : "TestsUsageAnalyser-Code",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"commitNb",
+		"timestamp",
+		"modificationDetails",
+		"objectAffected" ],
+	"name" : "CodeData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

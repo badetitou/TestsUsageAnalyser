@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		"uniqueInstance" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"url" ],
+	"name" : "TestsSender",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

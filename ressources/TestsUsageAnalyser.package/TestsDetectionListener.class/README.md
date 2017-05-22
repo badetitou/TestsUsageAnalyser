@@ -1,0 +1,1 @@
+Detect running tests

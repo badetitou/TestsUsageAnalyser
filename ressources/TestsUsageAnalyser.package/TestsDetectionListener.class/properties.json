@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		"TAAnnouncer" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"enable" ],
+	"name" : "TestsDetectionListener",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

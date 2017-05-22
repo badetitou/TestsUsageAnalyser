@@ -1,0 +1,15 @@
+{
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ByClass",
+		"ByMethod" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "TestTools",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/15/2017 13:44",
+	"instvars" : [
+		"testName",
+		"status",
+		"startTime",
+		"endTime" ],
+	"name" : "TestMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
