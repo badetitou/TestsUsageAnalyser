@@ -1,6 +1,7 @@
 system changes
 enable
-	SystemAnnouncer unsubscribe: self.
+	SystemAnnouncer uniqueInstance unsubscribe: self.
+	"
 	{	CategoryAdded -> #categoryAdded:. 
 		CategoryRemoved -> #categoryRemoved:.
 		CategoryRenamed -> #categoryRenamed:.
@@ -18,3 +19,4 @@ enable
 			when: pair key 
 			send: pair value 
 			to: self ].
+		"
