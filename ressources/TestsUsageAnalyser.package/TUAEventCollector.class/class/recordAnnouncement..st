@@ -1,4 +1,4 @@
-as yet unclassified
+events
 recordAnnouncement: anAnnouncement
 
 	self uniqueInstance recordAnnouncement: anAnnouncement 

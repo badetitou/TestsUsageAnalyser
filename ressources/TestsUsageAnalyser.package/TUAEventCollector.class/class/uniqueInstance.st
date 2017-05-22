@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 uniqueInstance
 	^ uniqueInstance first ifNil: [ 
 		uniqueInstance at: 1 put: (

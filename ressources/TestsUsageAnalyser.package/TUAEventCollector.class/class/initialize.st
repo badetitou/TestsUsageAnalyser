@@ -1,5 +1,6 @@
-as yet unclassified
+class initialization
 initialize
+
 	SessionManager default
 		register: (ClassSessionHandler forClassNamed: self name)
 		inCategory: SessionManager default toolsCategory  
@@ -7,5 +8,5 @@ initialize
 	self recordMeta.
 
 	uniqueInstance := WeakArray new: 1.
-	TUAAnnouncer uniqueInstance unsubscribe: self.
-	TUAAnnouncer uniqueInstance weak when: ReCriticEvent send: #recordAnnouncement: to: self
+	"TUAAnnouncer uniqueInstance unsubscribe: self.
+	TUAAnnouncer uniqueInstance weak when: TUAEvent send: #recordAnnouncement: to: self"

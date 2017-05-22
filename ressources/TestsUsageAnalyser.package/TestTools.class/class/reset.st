@@ -1,3 +1,3 @@
 initialization
 reset
-	self class setFromTestRunner.
+	self setFromTestRunner.

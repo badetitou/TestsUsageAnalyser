@@ -1,4 +1,4 @@
-as yet unclassified
+events
 recordAnnouncement: anAnnouncement
 	Privacy sendDiagnosticsAndUsageData ifFalse: [ ^ self ].	
 	(anAnnouncement respondsTo: #dataForTUA) ifTrue: [

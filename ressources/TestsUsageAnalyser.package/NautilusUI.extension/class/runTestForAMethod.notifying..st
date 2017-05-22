@@ -6,7 +6,7 @@ runTestForAMethod: aMethod notifying: aBoolean
 	testClass := testMethod methodClass.
 	
 	TestsDetectionListener isEnable 
-		ifTrue: [ TestTools setByMethod .testResult := testClass run: testMethod selector.] 
+		ifTrue: [ TestTools setByMethod .testResult := testClass debug: testMethod selector.] 
 		ifFalse: [ testResult := testClass debug: testMethod selector ].
 
 	aBoolean

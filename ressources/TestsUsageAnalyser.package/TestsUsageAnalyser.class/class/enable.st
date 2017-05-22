@@ -1,5 +1,6 @@
 accessing
 enable
-	CodeDetectionListener enable.
+	self disable.
+	"CodeDetectionListener enable."
 	TestsDetectionListener enable.
-	testRan := false.
+	GTEventRecorder uniqueInstance addCollector: TUAEventCollector uniqueInstance.
