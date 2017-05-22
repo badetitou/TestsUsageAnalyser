@@ -10,5 +10,5 @@
 	"name" : "TUAAnnouncer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Announcer",
 	"type" : "normal" }

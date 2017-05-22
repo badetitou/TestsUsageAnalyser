@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 uniqueInstance
 	"I'm a singleton…"
 	
