@@ -4,10 +4,10 @@ send
 		(TestsData uniqueInstance testClasses size == TestsData testSuite size) ifFalse:[
 			^self.
 		].
-		self sendIt: TestsData toSend.
+		self sendIt: TestsData uniqueInstance toSend.
 		TestsData testSuite: nil.
 	] ifNil: [
-		self sendIt: TestsData toSend.
+		self sendIt: TestsData uniqueInstance toSend.
 	].
 	TestsData reset.
 	TestTools reset.
