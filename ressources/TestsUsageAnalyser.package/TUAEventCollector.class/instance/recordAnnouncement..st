@@ -1,5 +1,6 @@
 events
 recordAnnouncement: anAnnouncement
+	"Aware with the privacy"
 	Privacy sendDiagnosticsAndUsageData ifFalse: [ ^ self ].	
 	(anAnnouncement respondsTo: #dataForTUA) ifTrue: [
 		[ self add:

@@ -1,4 +1,4 @@
 action
 disable
-		uniqueInstance enable: false.
-		uniqueInstance unregisterToTestAnnouncements.
+		self uniqueInstance enable: false.
+		self uniqueInstance unregisterToTestAnnouncements.
