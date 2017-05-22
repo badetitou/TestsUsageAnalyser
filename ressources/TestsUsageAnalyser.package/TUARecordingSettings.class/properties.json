@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Recording",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:16",
+	"instvars" : [
+		"showErrors" ],
+	"name" : "TUARecordingSettings",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

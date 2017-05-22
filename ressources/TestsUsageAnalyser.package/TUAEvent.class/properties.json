@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Announcements",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:05",
+	"instvars" : [
+		"entity" ],
+	"name" : "TUAEvent",
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }
