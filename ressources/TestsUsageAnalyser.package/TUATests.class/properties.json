@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 10:18",
+	"instvars" : [
+		 ],
+	"name" : "TUATests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

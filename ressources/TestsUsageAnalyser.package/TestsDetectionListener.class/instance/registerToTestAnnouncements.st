@@ -1,6 +1,9 @@
 accessing
 registerToTestAnnouncements
 	TestsData uniqueInstance initialize.
+	self class TAAnnouncer unsubscribe: self.
+	TestCase historyAnnouncer unsubscribe: self.
+	
 	self class TAAnnouncer weak 
 		when: TestCaseStarted send: #testCaseStarted: to: self;
 		when: TestCaseEnded send: #testCaseEnded: to: self;

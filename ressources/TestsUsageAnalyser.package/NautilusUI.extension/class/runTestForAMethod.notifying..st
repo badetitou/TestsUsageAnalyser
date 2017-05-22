@@ -1,7 +1,8 @@
 *TestsUsageAnalyser
 runTestForAMethod: aMethod notifying: aBoolean
 	| testMethod testClass testResult color |
-	(testMethod := aMethod asTestMethod) ifNil: [ ^ self ].
+	testMethod := aMethod correspondingTestMethod.
+	testMethod ifNil: [ ^ self ].
 	testClass := testMethod methodClass.
 	
 	TestsDetectionListener isEnable 
@@ -11,11 +12,13 @@ runTestForAMethod: aMethod notifying: aBoolean
 	aBoolean
 		ifFalse: [ ^ self ].
 	color := Color gray.
-	testMethod isPassedTest
+	testResult hasPassed
 		ifTrue: [ color := Color green ].
-	testMethod isFailedTest
+	testResult hasSkipped
+		ifTrue: [ color := Color blue lighter].
+	testResult hasFailures
 		ifTrue: [ color := Color yellow ].
-	testMethod isErrorTest
+	testResult hasErrors
 		ifTrue: [ color := Color red ].
 	self
 		notifyTitle: 'Test Finished'

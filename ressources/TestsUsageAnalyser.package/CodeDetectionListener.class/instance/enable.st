@@ -1,5 +1,6 @@
 system changes
 enable
+	SystemAnnouncer unsubscribe: self.
 	{	CategoryAdded -> #categoryAdded:. 
 		CategoryRemoved -> #categoryRemoved:.
 		CategoryRenamed -> #categoryRenamed:.
