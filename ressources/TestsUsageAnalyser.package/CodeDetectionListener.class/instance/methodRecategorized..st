@@ -1,5 +1,5 @@
 announcement handling
 methodRecategorized: anAnnouncement
-	CodeData uniqueInstance objectAffected: anAnnouncement classAffected asString.
-	CodeData uniqueInstance modificationDetails: ('Method Recategorized : ', anAnnouncement methodRecategorized asString , ' -- ',  anAnnouncement oldProtocol asString, ' -> ',  anAnnouncement newProtocol asString).
+	CodeData uniqueInstance objectAffected: anAnnouncement methodClass asString.
+	CodeData uniqueInstance modificationDetails: anAnnouncement newProtocol asString.
 	CodeSender send.

@@ -1,3 +1,3 @@
 accessing
 send
-	"self uniqueInstance send."
+	self uniqueInstance send.

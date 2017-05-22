@@ -1,5 +1,5 @@
 announcement handling
 methodModified: anAnnouncement
-	CodeData uniqueInstance objectAffected: anAnnouncement classAffected asString.
-	CodeData uniqueInstance modificationDetails: ('Method Modified : ', anAnnouncement oldMethod asString, ' -> ',  anAnnouncement newMethod asString).
+	CodeData uniqueInstance objectAffected: anAnnouncement methodClass.
+	CodeData uniqueInstance modificationDetails: (anAnnouncement newMethod asString).
 	CodeSender send.

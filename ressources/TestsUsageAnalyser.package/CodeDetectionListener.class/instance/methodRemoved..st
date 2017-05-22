@@ -1,5 +1,5 @@
 announcement handling
 methodRemoved: anAnnouncement
-	CodeData uniqueInstance objectAffected: anAnnouncement classAffected asString.
-	CodeData uniqueInstance modificationDetails: ('Method Removed : ', anAnnouncement methodRemoved asString).
+	CodeData uniqueInstance objectAffected: anAnnouncement methodClass asString.
+	CodeData uniqueInstance modificationDetails: anAnnouncement methodRemoved asString.
 	CodeSender send.

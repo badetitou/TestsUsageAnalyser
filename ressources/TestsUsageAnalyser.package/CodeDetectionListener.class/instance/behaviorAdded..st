@@ -1,5 +1,4 @@
 announcement handling
 behaviorAdded: anAnnouncement
-	CodeData uniqueInstance objectAffected: anAnnouncement classAffected asString.
-	CodeData uniqueInstance modificationDetails: ('Class Added : ', anAnnouncement classAdded className).
+	CodeData uniqueInstance objectAffected: anAnnouncement classAdded asString.
 	CodeSender send.
