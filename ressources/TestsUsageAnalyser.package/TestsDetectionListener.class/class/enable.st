@@ -1,6 +1,6 @@
 action
 enable
-	uniqueInstance enable: true.
+	self uniqueInstance enable: true.
 	TestsData reset.
 	TestTools initialize.
-	uniqueInstance registerToTestAnnouncements.
+	self uniqueInstance registerToTestAnnouncements.
