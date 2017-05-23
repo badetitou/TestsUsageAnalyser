@@ -6,8 +6,7 @@ recordAnnouncement: anAnnouncement
 		[ self add:
 			(anAnnouncement dataForTUA
 				at: #obfuscated put: Privacy sendEntityNames not;
-				yourself).
-
+				yourself)
 		
 		] on: Error
 		  do: [ :error |

@@ -4,4 +4,4 @@ initialize
 	self
 		category: #testsUsageAnalyserEvents;
 		updateAnnouncementBlock: [ :aGTEventAnnouncement |
-			aGTEventAnnouncement at: #tuaEventFormatVersion put: 0.1 ]
+			aGTEventAnnouncement at: #tuaEventFormatVersion put: 0.2 ]

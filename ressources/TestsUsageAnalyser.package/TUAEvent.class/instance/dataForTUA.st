@@ -1,3 +1,7 @@
-accessing
+as yet unclassified
 dataForTUA
-	^entity
+
+	^ super dataForTUA
+		at: #class put: self class name;
+		at: #entity put: entity dataForTUA;
+		yourself

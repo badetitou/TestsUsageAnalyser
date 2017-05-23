@@ -5,9 +5,7 @@ forJsonSending
 	level4 at: 'name' put: testName.
 
 	level4 at: 'status' put: status.
-	
-	endDate ifNil: [ level4 at: 'status' put: 'FAILLED'. self endDate: DateAndTime now].
-	
+
 	level4 at: 'duration' put: (endDate - startDate) totalSeconds asFloat .
 	testsMethodsCollection := OrderedCollection new.
 	testsMethods do: [ :aMethod | testsMethodsCollection add: aMethod forJsonSending ].
