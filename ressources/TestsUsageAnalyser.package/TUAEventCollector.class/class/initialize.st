@@ -8,5 +8,6 @@ initialize
 	self recordMeta.
 
 	uniqueInstance := WeakArray new: 1.
+	self uniqueInstance initialize.
 	TUAAnnouncer uniqueInstance unsubscribe: self.
 	TUAAnnouncer uniqueInstance weak when: TUAEvent send: #recordAnnouncement: to: self
