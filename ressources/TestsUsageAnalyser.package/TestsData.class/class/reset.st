@@ -1,5 +1,6 @@
 accessing
 reset
-	uniqueInstance initialize.
+	self uniqueInstance initialize.
+	self testSuite: nil.
 	SmalltalkImage current garbageCollect.
 	^uniqueInstance
