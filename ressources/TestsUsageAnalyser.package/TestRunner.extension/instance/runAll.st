@@ -3,6 +3,6 @@ runAll
 
 	self resetResult.
 	TestsDetectionListener isEnable ifTrue: [ 
-		TestsData testSuite: self allSelectedTestSuites ].
+		TestsData testSuite: self suiteForAllSelected tests ].
 	self runTestSuites: self allSelectedTestSuites.
 	self saveResultInHistory
