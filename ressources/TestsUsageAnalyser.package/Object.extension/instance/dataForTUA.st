@@ -1,5 +1,5 @@
 *TestsUsageAnalyser
-dataForTUA
-
-	^ Dictionary newFromPairs: {
-		#class . self class name obfuscatedIfNecessary }
+dataForTUA 
+ 
+  ^ Dictionary newFromPairs: { 
+    #class . self class name obfuscatedIfNecessary }
