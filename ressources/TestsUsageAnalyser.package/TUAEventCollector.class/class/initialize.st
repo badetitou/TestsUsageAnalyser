@@ -13,4 +13,4 @@ initialize
 	TUAAnnouncer uniqueInstance weak when: TUAEvent send: #recordAnnouncement: to: self.
 	
 	SystemAnnouncer uniqueInstance unsubscribe: self.
-	SystemAnnouncer uniqueInstance weak when: PrivacyChangedAnnoucement send: #privacyChange to: self.
+	SystemAnnouncer uniqueInstance weak when: PrivacyChangedAnnoucement send: #privacyChange: to: self.
