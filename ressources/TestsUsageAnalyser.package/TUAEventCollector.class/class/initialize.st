@@ -1,6 +1,8 @@
 class initialization
 initialize
 	Privacy sendDiagnosticsAndUsageData: true.
+	Privacy sendEntityNames: true.
+	Privacy sendSourceCode: true.
 	SessionManager default
 		register: (ClassSessionHandler forClassNamed: self name)
 		inCategory: SessionManager default toolsCategory  

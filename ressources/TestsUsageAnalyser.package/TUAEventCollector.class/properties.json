@@ -1,7 +1,8 @@
 {
 	"category" : "TestsUsageAnalyser-Recording",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		"uniqueInstance",
+		"dataVersion" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:07",
