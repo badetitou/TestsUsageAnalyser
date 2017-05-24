@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:05",
 	"instvars" : [
-		"entity" ],
+		"entity",
+		"type" ],
 	"name" : "TUAEvent",
 	"pools" : [
 		 ],

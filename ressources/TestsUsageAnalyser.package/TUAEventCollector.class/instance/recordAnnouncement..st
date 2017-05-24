@@ -6,6 +6,7 @@ recordAnnouncement: anAnnouncement
 		[ self add:
 			(anAnnouncement dataForTUA
 				at: #obfuscated put: Privacy sendEntityNames not;
+				at: #type put: anAnnouncement type;
 				yourself)
 		
 		] on: Error
