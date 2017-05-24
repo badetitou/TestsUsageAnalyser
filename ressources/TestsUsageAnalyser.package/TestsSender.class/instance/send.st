@@ -9,6 +9,5 @@ send
 	] ifNil: [
 		self sendIt: TestsData uniqueInstance toSend.
 	].
-	self halt.
 	TestsData reset.
 	TestTools reset.
