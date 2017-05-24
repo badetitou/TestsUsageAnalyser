@@ -4,6 +4,7 @@ forJsonSending
 	level4 := Dictionary new.
 	level4 at: 'name' put: testName.
 
+
 	level4 at: 'status' put: status.
 
 	level4 at: 'duration' put: (endDate - startDate) totalSeconds asFloat .
