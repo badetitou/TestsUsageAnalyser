@@ -2,7 +2,7 @@ as yet unclassified
 send
 		TUAAnnouncer uniqueInstance announce: (
 			TUAEvent new
-				type: #testData;
+				type: #codeData;
 				entity: CodeData toSend;
 				yourself
 		). 
