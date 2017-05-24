@@ -9,7 +9,8 @@
 		"commitNb",
 		"timestamp",
 		"modificationDetails",
-		"objectAffected" ],
+		"objectAffected",
+		"actionType" ],
 	"name" : "CodeData",
 	"pools" : [
 		 ],
