@@ -1,0 +1,1 @@
+I'm a tool that help reading data from GTEvent format as TestsUsageAnalyser wishes

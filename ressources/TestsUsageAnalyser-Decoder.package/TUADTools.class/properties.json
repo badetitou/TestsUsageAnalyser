@@ -1,0 +1,14 @@
+{
+	"category" : "TestsUsageAnalyser-Decoder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/24/2017 09:01",
+	"instvars" : [
+		 ],
+	"name" : "TUADTools",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
