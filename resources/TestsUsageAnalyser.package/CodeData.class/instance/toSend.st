@@ -3,7 +3,7 @@ toSend
 	|firstLevel |
 	
 	firstLevel := Dictionary new.
-	firstLevel at: 'userId' put: (MD5 hashMessage: (Unicode toUppercaseString: Author uniqueInstance fullName)) asString.
+	firstLevel at: 'userId' put: (MD5 hashMessage: (Unicode toUppercaseString: Author uniqueInstance fullName)) hex.
 	firstLevel at: 'timestamps' put: DateAndTime now asString.
 	firstLevel at: 'objectAffected' put: self objectAffected.
 	firstLevel at: 'snapshot' put: self modificationDetails.
