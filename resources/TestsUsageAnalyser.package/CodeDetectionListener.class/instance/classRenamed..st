@@ -3,5 +3,5 @@ classRenamed: anAnnouncement
 	CodeData uniqueInstance objectAffected: anAnnouncement classAffected asString.
 	CodeData uniqueInstance modificationDetails: anAnnouncement newName asString.
 	CodeData uniqueInstance actionType: #classRenamed.
-	CodeData uniqueInstance commitID: (MCPackage named: anAnnouncement classAffected package name) workingCopy versionInfo id.
+	CodeData uniqueInstance commitID: ((MCPackage named: anAnnouncement classAffected package name) workingCopy versionInfo ifNil: [ ^nil] ifNotNil: [ :a | a id ]).
 	CodeSender send.

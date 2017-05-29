@@ -1,3 +1,4 @@
 accessing
 dataVersion
-	^ dataVersion ifNil: [ 0.8 ]
+	"Support of non new element (without any commit)"
+	^ dataVersion ifNil: [ 0.9 ]
