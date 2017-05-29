@@ -1,15 +1,14 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RTests",
-	"classinstvars" : [
-		 ],
+	"classinstvars" : [ ],
+	"pools" : [ ],
 	"classvars" : [
 		"ByClass",
-		"ByMethod" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
+		"ByMethod"
+	],
+	"instvars" : [ ],
 	"name" : "TestTools",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

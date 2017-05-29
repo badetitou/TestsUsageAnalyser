@@ -1,14 +1,17 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RTests",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		"uniqueInstance"
+	],
+	"pools" : [ ],
 	"classvars" : [
-		"uniqueInstance" ],
-	"commentStamp" : "<historical>",
+		"uniqueInstance"
+	],
 	"instvars" : [
-		"url" ],
+		"url"
+	],
 	"name" : "TestsSender",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

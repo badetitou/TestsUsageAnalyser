@@ -1,4 +1,6 @@
 *TestsUsageAnalyser
 sunitAnnounce: aTestCase toResult: aTestResult
-	TestsDetectionListener uniqueInstance testCaseRaiseError: aTestCase.
+	TestsDetectionListener isEnable ifTrue: [ 
+		TestsDetectionListener uniqueInstance testCaseRaiseError: aTestCase.
+	]
 	aTestResult addError: aTestCase.
