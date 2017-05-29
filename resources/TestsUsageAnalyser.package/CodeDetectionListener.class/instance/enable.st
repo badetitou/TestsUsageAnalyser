@@ -1,10 +1,7 @@
 system changes
 enable
 	SystemAnnouncer uniqueInstance unsubscribe: self.
-	{	CategoryAdded -> #categoryAdded:. 
-		CategoryRemoved -> #categoryRemoved:.
-		CategoryRenamed -> #categoryRenamed:.
-		ClassAdded-> #behaviorAdded:.
+	{	ClassAdded-> #behaviorAdded:.
 		ClassRemoved->#behaviorRemoved:.
 		ClassRecategorized -> #classRecategorized:.
 		ClassRenamed -> #classRenamed:.
@@ -13,6 +10,8 @@ enable
 		MethodAdded -> #methodAdded:.
 		MethodModified -> #methodModified:.
 		MethodRemoved -> #methodRemoved:.
+		MCWorkingCopyCreated -> #mcWorkingCopyCreated:.
+		MCWorkingCopyDeleted -> #mcWorkingCopyDeleted:.
 	} do: [ :pair |
 		SystemAnnouncer uniqueInstance weak
 			when: pair key 
