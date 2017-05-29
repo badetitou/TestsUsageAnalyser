@@ -1,3 +1,3 @@
 accessing
 dataVersion
-	^ dataVersion ifNil: [ 0.7 ]
+	^ dataVersion ifNil: [ 0.5 ]

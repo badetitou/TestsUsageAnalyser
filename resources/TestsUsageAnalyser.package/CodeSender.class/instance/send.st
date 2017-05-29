@@ -5,5 +5,5 @@ send
 				type: #codeData;
 				entity: CodeData toSend;
 				yourself
-		).
+		). 
 		CodeData reset.
