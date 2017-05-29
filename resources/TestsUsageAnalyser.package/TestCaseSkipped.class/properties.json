@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:41",
-	"super" : "TestCaseAnnouncement",
 	"category" : "TestsUsageAnalyser-Announcements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:41",
+	"instvars" : [
+		 ],
 	"name" : "TestCaseSkipped",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TestCaseAnnouncement",
+	"type" : "normal" }

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/23/2017 13:47",
-	"super" : "Announcer",
 	"category" : "TestsUsageAnalyser-Announcements",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/23/2017 13:47",
+	"instvars" : [
+		 ],
 	"name" : "TUAAnnouncer",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcer",
+	"type" : "normal" }

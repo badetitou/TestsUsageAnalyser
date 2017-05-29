@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:16",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-Recording",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:16",
 	"instvars" : [
-		"showErrors"
-	],
+		"showErrors" ],
 	"name" : "TUARecordingSettings",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

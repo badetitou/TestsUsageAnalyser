@@ -1,19 +1,18 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RCode",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"commitNb",
 		"timestamp",
 		"modificationDetails",
 		"objectAffected",
-		"actionType"
-	],
+		"actionType" ],
 	"name" : "CodeData",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

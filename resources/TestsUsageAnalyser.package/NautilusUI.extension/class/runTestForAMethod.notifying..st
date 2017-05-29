@@ -1,7 +1,8 @@
 *TestsUsageAnalyser
 runTestForAMethod: aMethod notifying: aBoolean
 	| testMethod testClass testResult color |
-	(testMethod := aMethod asTestMethod) ifNil: [ ^ self ].
+	(aMethod isTestMethod ifTrue: [ testMethod := aMethod ]
+		ifFalse: [testMethod :=  aMethod correspondingTestMethod ]) ifNil: [ ^ self ].
 	testClass := testMethod methodClass.
 	
 	TestsDetectionListener isEnable 

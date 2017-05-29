@@ -1,20 +1,19 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RTests",
 	"classinstvars" : [
 		"uniqueInstance",
-		"testSuite"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"testSuite" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"codeVersion",
 		"startDate",
 		"endDate",
 		"author",
-		"testClasses"
-	],
+		"testClasses" ],
 	"name" : "TestsData",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

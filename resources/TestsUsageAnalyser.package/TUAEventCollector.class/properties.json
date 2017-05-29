@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:07",
-	"super" : "GTEventCollector",
 	"category" : "TestsUsageAnalyser-Recording",
 	"classinstvars" : [
 		"uniqueInstance",
-		"dataVersion"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+		"dataVersion" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:07",
+	"instvars" : [
+		 ],
 	"name" : "TUAEventCollector",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GTEventCollector",
+	"type" : "normal" }

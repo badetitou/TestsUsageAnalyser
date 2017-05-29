@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/22/2017 16:33",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 16:33",
+	"instvars" : [
+		 ],
 	"name" : "TestsUsageAnalyser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,17 +1,14 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RTests",
 	"classinstvars" : [
-		"uniqueInstance"
-	],
-	"pools" : [ ],
+		"uniqueInstance" ],
 	"classvars" : [
-		"TAAnnouncer"
-	],
+		"TAAnnouncer" ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"enable"
-	],
+		"enable" ],
 	"name" : "TestsDetectionListener",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

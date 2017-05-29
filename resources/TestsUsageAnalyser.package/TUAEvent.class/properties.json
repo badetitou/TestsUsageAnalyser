@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:05",
-	"super" : "Announcement",
 	"category" : "TestsUsageAnalyser-Announcements",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/22/2017 09:05",
 	"instvars" : [
 		"entity",
-		"type"
-	],
+		"type" ],
 	"name" : "TUAEvent",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Announcement",
+	"type" : "normal" }

@@ -1,16 +1,17 @@
 {
-	"commentStamp" : "BenoitVerhaeghe 5/15/2017 13:44",
-	"super" : "Object",
 	"category" : "TestsUsageAnalyser-RTests",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BenoitVerhaeghe 5/15/2017 13:44",
 	"instvars" : [
 		"testName",
 		"status",
 		"startTime",
-		"endTime"
-	],
+		"endTime" ],
 	"name" : "TestMethod",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
