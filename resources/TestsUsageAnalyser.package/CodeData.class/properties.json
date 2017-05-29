@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"commitNb",
+		"commitID",
 		"timestamp",
 		"modificationDetails",
 		"objectAffected",

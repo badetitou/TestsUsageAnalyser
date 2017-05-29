@@ -1,10 +1,7 @@
 system changes
 enable
 	SystemAnnouncer uniqueInstance unsubscribe: self.
-	{	CategoryAdded -> #categoryAdded:. 
-		CategoryRemoved -> #categoryRemoved:.
-		CategoryRenamed -> #categoryRenamed:.
-		ClassAdded-> #behaviorAdded:.
+	{	ClassAdded-> #behaviorAdded:.
 		ClassRemoved->#behaviorRemoved:.
 		ClassRecategorized -> #classRecategorized:.
 		ClassRenamed -> #classRenamed:.
