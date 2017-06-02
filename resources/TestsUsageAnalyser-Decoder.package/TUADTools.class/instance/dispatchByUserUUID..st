@@ -1,5 +1,5 @@
 as yet unclassified
-dispatchByUser: anArrayOfGTEventAnnouncement
+dispatchByUserUUID: anArrayOfGTEventAnnouncement
 	| dictionnary |
 	dictionnary := Dictionary new.
 	anArrayOfGTEventAnnouncement do: [ :aGtEvent | 

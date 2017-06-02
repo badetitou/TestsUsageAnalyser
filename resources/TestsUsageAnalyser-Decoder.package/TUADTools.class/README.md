@@ -1,10 +1,8 @@
 tuadTools := TUADTools default.
 tuadTools download.
 
+tuadTools := TUADTools default.
 data := tuadTools unpackDirectory.
-data := tuadTools sort: data.
-data := tuadTools dispatchByUser: data.
-
-data := (data at: 'd9a7fe4f-f108-0d00-9e53-8d69039aabe5').
-data := tuadTools sort: data.
-(data at: 15) unpackedData .
+data := tuadTools unpackedCollectionOfGTEvent: data. 
+data := tuadTools select: data where: #dataVersion equals: 0.15.
+data := tuadTools dispatchByAuthorName: data
