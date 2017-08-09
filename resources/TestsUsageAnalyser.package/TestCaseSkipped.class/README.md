@@ -1,1 +1,0 @@
-This event is announced when skipping a test case.
