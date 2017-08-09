@@ -1,0 +1,4 @@
+announcement registration
+unregisterToTestAnnouncements
+	self class TAAnnouncer unsubscribe: self tuaTestsDetectionListenerStrategy.
+	self testCaseHistoryAnnouncer unsubscribe: self tuaTestsDetectionListenerStrategy

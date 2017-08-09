@@ -1,0 +1,4 @@
+accesing
+setByMethod
+
+	Type := #byMethod

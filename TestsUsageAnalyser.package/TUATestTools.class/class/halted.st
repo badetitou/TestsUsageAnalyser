@@ -1,0 +1,3 @@
+initialization
+halted
+	^Halted.

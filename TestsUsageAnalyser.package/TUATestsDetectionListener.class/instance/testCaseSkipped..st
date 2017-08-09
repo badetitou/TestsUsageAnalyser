@@ -1,0 +1,3 @@
+announcement registration
+testCaseSkipped: aTestResult
+	self tuaTestsDetectionListenerStrategy testCaseSkipped: aTestResult

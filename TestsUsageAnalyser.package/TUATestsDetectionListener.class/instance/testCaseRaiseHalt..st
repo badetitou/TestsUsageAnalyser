@@ -1,0 +1,3 @@
+announcement registration
+testCaseRaiseHalt: aTestResult
+	self tuaTestsDetectionListenerStrategy testCaseRaiseHalt: aTestResult

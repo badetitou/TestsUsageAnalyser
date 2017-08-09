@@ -1,0 +1,1 @@
+I represent the class that host the different strategy of recording

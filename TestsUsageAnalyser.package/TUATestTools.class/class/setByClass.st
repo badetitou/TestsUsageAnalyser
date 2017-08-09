@@ -1,0 +1,4 @@
+accesing
+setByClass
+
+	Type := #byClass

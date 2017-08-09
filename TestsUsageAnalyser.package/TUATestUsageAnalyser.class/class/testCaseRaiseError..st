@@ -1,0 +1,3 @@
+actions
+testCaseRaiseError: aTestResult
+	self tuaTestDetectionListener testCaseRaiseError: aTestResult

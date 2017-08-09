@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "BenoitVerhaeghe 8/2/2017 09:48",
+	"super" : "Object",
+	"category" : "TestsUsageAnalyser-RCode",
+	"classinstvars" : [
+		"uniqueInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"commitID",
+		"timestamp",
+		"modificationDetails",
+		"affectedObject",
+		"actionType",
+		"package"
+	],
+	"name" : "TUACodeChangeData",
+	"type" : "normal"
+}

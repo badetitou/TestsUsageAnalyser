@@ -1,0 +1,3 @@
+operation
+getAffectedMethodClassFromAnnouncement: anAnnouncement
+	^anAnnouncement methodClass asString

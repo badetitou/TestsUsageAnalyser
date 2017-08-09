@@ -1,0 +1,3 @@
+tests
+testCaseRaiseError: aTestResult
+	self subclassResponsibility

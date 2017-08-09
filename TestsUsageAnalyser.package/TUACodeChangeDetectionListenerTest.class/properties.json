@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "TestsUsageAnalyser-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aCodeChangeListener"
+	],
+	"name" : "TUACodeChangeDetectionListenerTest",
+	"type" : "normal"
+}

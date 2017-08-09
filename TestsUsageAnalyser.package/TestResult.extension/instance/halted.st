@@ -1,0 +1,3 @@
+*TestsUsageAnalyser
+halted
+	^ TUATestTools halted.

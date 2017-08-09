@@ -1,0 +1,3 @@
+tests
+testCaseFailled: aTestResult
+	self subclassResponsibility

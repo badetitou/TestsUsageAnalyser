@@ -1,0 +1,3 @@
+actions
+testCaseSkipped: aTestResult
+	self tuaTestDetectionListener testCaseSkipped: aTestResult

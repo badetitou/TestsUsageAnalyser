@@ -1,0 +1,1 @@
+I'm the activted strategy. I'm used by default. I parse the data from the announcement i receive

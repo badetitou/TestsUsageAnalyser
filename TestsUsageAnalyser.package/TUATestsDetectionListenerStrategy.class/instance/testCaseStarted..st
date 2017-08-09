@@ -1,0 +1,3 @@
+tests
+testCaseStarted: anAnnouncement
+	self subclassResponsibility

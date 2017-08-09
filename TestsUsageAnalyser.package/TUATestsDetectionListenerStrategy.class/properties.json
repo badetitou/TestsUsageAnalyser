@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "TestsUsageAnalyser-RTests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testRunning",
+		"testSender"
+	],
+	"name" : "TUATestsDetectionListenerStrategy",
+	"type" : "normal"
+}

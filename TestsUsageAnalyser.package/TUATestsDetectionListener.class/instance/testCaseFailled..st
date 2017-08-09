@@ -1,0 +1,3 @@
+announcement registration
+testCaseFailled: aTestResult
+	self tuaTestsDetectionListenerStrategy testCaseFailled: aTestResult

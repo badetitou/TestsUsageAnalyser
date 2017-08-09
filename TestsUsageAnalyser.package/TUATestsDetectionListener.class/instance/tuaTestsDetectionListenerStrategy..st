@@ -1,0 +1,3 @@
+announcement registration
+tuaTestsDetectionListenerStrategy: aTuaTestsDetectionListenerStrategy
+	^ tuaTestsDetectionListenerStrategy := aTuaTestsDetectionListenerStrategy

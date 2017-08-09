@@ -1,0 +1,3 @@
+tests
+testCaseSkipped: aTestResult
+	self subclassResponsibility
