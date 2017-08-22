@@ -4,5 +4,5 @@ development: spec
 	
 	spec for: #'common' do: [
   		spec
-			baseline: 'TestsUsageAnalyser'
+			baseline: 'TestUsageAnalyser'
 			with: [ spec repository: 'github://badetitou/TestsUsageAnalyser:developement' ] ]
