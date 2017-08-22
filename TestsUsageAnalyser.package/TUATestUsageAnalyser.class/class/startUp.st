@@ -12,5 +12,3 @@ startUp
 								load ]
 								on: MetacelloPackageSpecResolutionError
 								do: [  ] ] ] ]
-
-	

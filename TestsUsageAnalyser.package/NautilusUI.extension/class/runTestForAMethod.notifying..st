@@ -13,9 +13,12 @@ runTestForAMethod: aMethod notifying: aBoolean
 	testResult hasPassed
 		ifTrue: [ color := Color green ].
 	testResult hasSkipped
-		ifTrue: [ color := Color blue lighter lighter ].
+		ifTrue: [ color := Color lightBlue].
 	testResult hasFailures
 		ifTrue: [ color := Color yellow ].
 	testResult hasErrors
 		ifTrue: [ color := Color red ].
-	self notifyTitle: 'Test Finished' contents: 'Method: ' , testMethod methodClass asString , '>>#' , testMethod selector asString color: color
+	self
+		notifyTitle: 'Test Finished'
+		contents: 'Method: ' , testMethod methodClass asString , '>>#' , testMethod selector asString
+		color: color
