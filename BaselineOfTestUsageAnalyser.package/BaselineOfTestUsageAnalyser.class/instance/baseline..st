@@ -9,4 +9,4 @@ baseline: spec
 			spec
 				repository: 'github://badetitou/TestsUsageAnalyser';
 				package: 'TestsUsageAnalyser';
-				group: 'default' with: #('TestsUsageAnalyser') ]
+				group: 'default' with: #('TestsUsageAnalyser' 'TestsUsageAnalyserSmartTestExtends') ]
