@@ -7,4 +7,4 @@ testGenerateTuaCodeChangeFromBehaviorModifiedAnnouncement
 	self assert: aCodeChangeData actionType equals: #behaviorModified.
 	self assert: aCodeChangeData package equals: Object package asString.
 	self assert: aCodeChangeData commitID equals: (MCPackage named: Object package name) workingCopy versionInfo id.
-	self assert: aCodeChangeData modificationDetails equals: Object asString.
+	self assert: aCodeChangeData modificationDetails equals: Object definition.

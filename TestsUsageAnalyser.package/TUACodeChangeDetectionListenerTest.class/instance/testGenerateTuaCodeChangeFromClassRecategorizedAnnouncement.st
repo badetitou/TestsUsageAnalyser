@@ -10,4 +10,4 @@ testGenerateTuaCodeChangeFromClassRecategorizedAnnouncement
 	self assert: aCodeChangeData actionType equals: #classRecategorized.
 	self assert: aCodeChangeData package equals: Object package asString.
 	self assert: aCodeChangeData commitID equals: (MCPackage named: Object package name) workingCopy versionInfo id.
-	self assert: aCodeChangeData modificationDetails equals: #Hello
+	self assert: aCodeChangeData modificationDetails equals: Object definition 
