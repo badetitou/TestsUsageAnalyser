@@ -1,5 +1,8 @@
-symbolic versions
+versions
 development: spec
-	<symbolicVersion: #'development'>
-
-	spec for: #'common' version: '0.2-baseline'.
+	<version: 'development'>
+	
+	spec for: #'common' do: [
+  		spec
+			baseline: 'TestsUsageAnalyser'
+			with: [ spec repository: 'github://badetitou/TestsUsageAnalyser:developement' ] ]

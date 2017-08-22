@@ -1,6 +1,8 @@
 baselines
 baseline: spec
 	<baseline>
+	self preloadForTUA.
+	self preloadForTUAStable.
 	spec
 		for: #common
 		do: [ self defineDependencies: spec.
