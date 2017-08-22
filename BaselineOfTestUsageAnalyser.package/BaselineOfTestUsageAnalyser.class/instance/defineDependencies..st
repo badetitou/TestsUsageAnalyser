@@ -1,6 +1,6 @@
 baselines
 defineDependencies: spec
 	spec
-		baseline: 'TestsUsageAnalyserCORAExtends'
+		baseline: 'TestsUsageAnalyserSmartTestExtends'
 		with: [ spec
-				repository: 'github://badetitou/TestsUsageAnalyser-CORAExtends/' ].
+				repository: 'github://badetitou/TestsUsageAnalyser-SmartTestExtends/' ].
