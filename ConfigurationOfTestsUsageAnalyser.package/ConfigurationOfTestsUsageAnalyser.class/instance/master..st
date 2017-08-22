@@ -5,4 +5,5 @@ master: spec
 	spec for: #'common' do: [
   		spec
 			baseline: 'TestUsageAnalyser'
-			with: [ spec repository: 'github://badetitou/TestsUsageAnalyser' ] ]
+			with: [ spec repository: 'github://badetitou/TestsUsageAnalyser' ].
+	spec postLoadDoIt: #postLoad ]
