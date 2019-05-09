@@ -1,2 +1,0 @@
-tests
-testCaseFailled: aTestResult	

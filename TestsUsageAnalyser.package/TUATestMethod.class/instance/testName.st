@@ -1,3 +1,0 @@
-accessing
-testName
-	^ testName

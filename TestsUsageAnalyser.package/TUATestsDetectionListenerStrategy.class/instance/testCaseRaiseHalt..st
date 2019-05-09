@@ -1,3 +1,0 @@
-tests
-testCaseRaiseHalt: aTestResult
-	self subclassResponsibility

@@ -1,3 +1,0 @@
-actions
-testCaseRaiseHalt: aTestResult
-	self tuaTestDetectionListener 	testCaseRaiseHalt: aTestResult

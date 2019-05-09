@@ -1,3 +1,0 @@
-*TestsUsageAnalyser
-shouldAnnounce
-	^true

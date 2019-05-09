@@ -1,4 +1,0 @@
-accesing
-setByMethod
-
-	Type := #byMethod

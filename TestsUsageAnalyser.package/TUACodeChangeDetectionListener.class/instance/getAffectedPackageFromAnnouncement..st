@@ -1,3 +1,0 @@
-operation
-getAffectedPackageFromAnnouncement: anAnnouncement
-	^ anAnnouncement package asString

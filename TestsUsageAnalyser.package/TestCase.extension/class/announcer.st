@@ -1,4 +1,0 @@
-*TestsUsageAnalyser
-announcer 
-	 ^ TUATestsDetectionListener TAAnnouncer
-	

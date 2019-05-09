@@ -1,3 +1,0 @@
-announcement registration
-testCaseHistoryAnnouncer
-	^ TestCase historyAnnouncer

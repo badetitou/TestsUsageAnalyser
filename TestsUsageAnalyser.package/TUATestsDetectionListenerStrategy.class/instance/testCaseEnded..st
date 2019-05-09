@@ -1,3 +1,0 @@
-tests
-testCaseEnded: anAnnouncement
-	self subclassResponsibility

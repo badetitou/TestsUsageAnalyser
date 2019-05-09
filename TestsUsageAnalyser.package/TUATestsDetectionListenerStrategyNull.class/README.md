@@ -1,1 +1,0 @@
-I'm the null strategy. By default i'm used when the user desactivates this plugin.

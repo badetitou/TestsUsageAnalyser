@@ -1,2 +1,0 @@
-tests
-testRan: anAnnouncement

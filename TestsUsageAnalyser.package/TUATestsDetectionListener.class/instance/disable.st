@@ -1,4 +1,0 @@
-accessing
-disable
-	self unregisterToTestAnnouncements.
-	self tuaTestsDetectionListenerStrategy: TUATestsDetectionListenerStrategyNull new

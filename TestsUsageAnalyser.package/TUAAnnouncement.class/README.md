@@ -1,1 +1,0 @@
-A TUA event for usage analyser. It contains either a test data or a code change data object.

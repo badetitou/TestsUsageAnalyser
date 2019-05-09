@@ -1,3 +1,0 @@
-action
-eventCategory
-	^#testsUsageAnalyserEvents

@@ -1,5 +1,0 @@
-accessing
-enable
-	self
-		tuaTestsDetectionListenerStrategy: TUATestsDetectionListenerStrategyActivated new.
-		self registerToTestAnnouncements

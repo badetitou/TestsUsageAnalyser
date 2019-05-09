@@ -1,1 +1,0 @@
-The way the user starts the test
