@@ -6,25 +6,23 @@ Class {
 
 { #category : #baselines }
 BaselineOfTestUsageAnalyser >> baseline: spec [
+	"self preloadForTUA.
+	self preloadForTUAStable."
+
 	<baseline>
-	self preloadForTUA.
-	self preloadForTUAStable.
 	spec
 		for: #common
 		do: [ self defineDependencies: spec.
-			spec
-				repository: 'github://badetitou/TestsUsageAnalyser';
-				package: 'TestsUsageAnalyser';
-				group: 'default' with: #('TestsUsageAnalyser') ]
+			spec package: 'TestsUsageAnalyser' ]
 ]
 
 { #category : #baselines }
 BaselineOfTestUsageAnalyser >> defineDependencies: spec [
-	spec
+	"spec
 		baseline: 'TestsUsageAnalyserSmartTestExtends'
 		with: [ spec
 				repository: 'github://badetitou/TestsUsageAnalyser-SmartTestExtends/' ].
-
+"
 ]
 
 { #category : #baselines }
